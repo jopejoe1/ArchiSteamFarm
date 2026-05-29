@@ -20,7 +20,7 @@
 		<NeutralLanguage>en</NeutralLanguage>
 		<NoWarn>CA1028,CA1031,CS1591</NoWarn>
 		<Nullable>enable</Nullable>
-		<PackageIcon>../resources/ASF.ico</PackageIcon>
+		<PackageIcon>resources/ASF_512x512.png</PackageIcon>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/$(Company)/ArchiSteamFarm</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -94,4 +94,11 @@
 		<UseNativeHttpHandler>true</UseNativeHttpHandler>
 		<TrimMode>partial</TrimMode>
 	</PropertyGroup>
+
+	<ItemGroup>
+  	<None Include="resources\ASF_512x512.png">
+    	<Pack>true</Pack>
+    	<PackagePath>content</PackagePath>
+  	</None>
+	</ItemGroup>
 </Project>

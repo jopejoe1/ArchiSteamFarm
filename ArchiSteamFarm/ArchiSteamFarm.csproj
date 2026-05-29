@@ -41,7 +41,7 @@
 			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
 			<Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
 		</Content>
-		<Content Include="overlay\all\**\*.*">
+		<Content Include="overlay\all\**\*.*" Exclude="**\.gitkeep">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
 			<Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
